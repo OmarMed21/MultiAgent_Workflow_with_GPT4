@@ -1,45 +1,35 @@
-# MultiAgent_Workflow_with_GPT4
-
 # Multiagent Workflow with GPT-4 Integrated Streamlit App
 
 ## Introduction
 
-This project demonstrates a multiagent workflow system integrated with GPT-4 and visualized using a Streamlit app. It leverages a combination of technologies, including Matplotlib for plotting, NetworkX for graph operations, and OpenAI's GPT-4 for generating and evaluating Python code based on user queries. The system facilitates a feedback loop where user input influences the decision-making process within a defined state graph, optimizing query handling and code generation over time.
-
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Features](#features)
-- [Dependencies](#dependencies)
-- [Configuration](#configuration)
-- [Documentation](#documentation)
-- [Examples](#examples)
-- [Troubleshooting](#troubleshooting)
-- [Contributors](#contributors)
-- [License](#license)
+This project integrates a multiagent workflow system with GPT-4, showcased through a Streamlit app. It combines technologies like Matplotlib, NetworkX, and OpenAI's GPT-4 to process user queries, generating and evaluating Python code accordingly. The system is designed to improve over time through a feedback mechanism that adapts based on user interactions.
 
 ## Installation
 
-Before you start, ensure you have Python 3.6+ installed. Then, follow these steps to set up the project:
+Ensure Python 3.6+ is installed, then follow these steps:
 
-1. Clone the repository:
-    ```bash
-    git clone <repository-url>
-    ```
-2. Navigate to the project directory:
-    ```bash
-    cd <project-directory>
-    ```
-3. Install the required Python packages:
-    ```bash
-    pip install -r requirements.txt
-    ```
+1. Clone the repository and navigate to the project directory.
+2. Install dependencies with `pip install -r requirements.txt`.
 
 ## Usage
 
-To start the Streamlit app, run the following command in your terminal:
+Launch the Streamlit app by executing `streamlit run app.py` in your terminal and follow the on-screen instructions.
+
+## Features
+
+- State Graph Workflow for managing processing nodes.
+- GPT-4 integration for code generation and evaluation.
+- Custom vector storage for efficient query-code association.
+- Streamlit web interface for easy interaction.
+- User feedback loop for continuous system improvement.
+
+## Dependencies
+
+Key dependencies include streamlit, matplotlib, networkx, numpy, and openai. See `requirements.txt` for a full list.
+
+## Configuration
+
+Set your OpenAI API key in the environment:
 
 ```bash
-streamlit run app.py
+export OPENAI_API_KEY='your_api_key_here'
