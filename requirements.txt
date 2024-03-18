@@ -1,0 +1,8 @@
+langgraph
+langchain
+openai
+streamlit
+numpy
+pandas
+matplotlib
+networkx
