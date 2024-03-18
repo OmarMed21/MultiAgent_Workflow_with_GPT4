@@ -12,7 +12,7 @@ import numpy as np
 import os
 import json
 
-os.environ["OPENAI_API_KEY"] = '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'
+os.environ["OPENAI_API_KEY"] = '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'
 client = OpenAI()
 
 class VectorStore:
