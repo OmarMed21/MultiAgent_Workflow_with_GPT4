@@ -3,5 +3,4 @@ langchain
 openai
 networkx
 matplotlib
-pandas
-numpy
+
